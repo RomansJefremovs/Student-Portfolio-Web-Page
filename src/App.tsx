@@ -1,16 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import MenuButton from "./Reusable/MenuButton";
-import Logo from "./Reusable/Logo";
-import ContactLine from "./Reusable/ContactLine";
-import Navbar from "./Components/Navbar";
-import BurgerButton from "./Reusable/BurgerButton";
 import Mobile from "./Components/BurgerMenu";
 import {useMediaQuery, useTheme} from "@mui/material";
 import Desktop from "./Pages/Desktop";
 
 function App() {
-    const [value, setValue] = useState<boolean>(true)
+    const [value, setValue] = useState<boolean>(false)
     const toggleButton = ()=>{
         value ? setValue(false):setValue(true)
     }
@@ -23,7 +18,7 @@ function App() {
     const mobile = useMediaQuery(theme.breakpoints.down('md'));
     const desktop = useMediaQuery(theme.breakpoints.up('md'))
 
-    const viewporManager = ()=>{
+    const viewportManager = ()=>{
         if (mobile){
             return false
         }else if (desktop){
@@ -32,7 +27,7 @@ function App() {
     }
   return (
     <div className="App">
-        {viewporManager() ?
+        {viewportManager() ?
             <Desktop properties={desktopProps}/>
             :
             <Mobile properties={mobileProps}/>}

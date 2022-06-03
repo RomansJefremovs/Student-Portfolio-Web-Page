@@ -1,0 +1,15 @@
+.mobMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 60%;
+}
+
+.burger-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:2rem 2rem 5rem 0;
+}

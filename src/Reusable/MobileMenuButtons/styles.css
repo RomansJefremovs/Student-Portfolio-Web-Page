@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+}
+.btn-text{
+    color: #79a4a0;
+    font-size: 6rem;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+.btn-mobile{
+    padding-top: 0;
+    /*margin: 0;*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 10rem;
+    width: fit-content;
+    /*border: 2rem solid transparent;*/
+    /*font-weight: 500;*/
+    border-radius: 150px;
+}
+
+.btn-mobile:hover{
+    font-weight: 700;
+    border-bottom: 1rem solid transparent;
+    border-top: 1rem solid transparent;
+    border-left: 1rem solid #79a4a0;
+    border-right: 1rem solid #79a4a0;
+}
+
