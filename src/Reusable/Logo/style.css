@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "DancingScript-SemiBold";
+    src: local("DancingScript-SemiBold"),
+    url('../../Fonts/DancingScript-SemiBold.ttf') format("truetype");
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media (min-width: 900px) {
+    .bg-img{
+        text-align: center;
+        font-family: DancingScript-SemiBold;
+        font-size: 40px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 900px) {
+    .bg-img{
+        text-align: center;
+        font-family: DancingScript-SemiBold;
+        font-size: 28px;
+        background-size: cover;
+    }
+}

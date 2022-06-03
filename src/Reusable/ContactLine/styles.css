@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+}
+
+.contact{
+    margin: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    height:2rem;
+    border: 0.2rem solid transparent;
+    color: black;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border-radius: 20px;
+}
+.img{
+    margin-left: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    width: 2.1rem;
+    height: 2.1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../Assets/contact-mail.png");
+}
+
