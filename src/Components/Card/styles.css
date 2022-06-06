@@ -1,0 +1,27 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f7f1;
+    width: 20rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 25px;
+    opacity: .8;
+    transition: 1s;
+}
+.card-titles{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container:hover{
+    opacity: 1;
+    transition: 1s;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.margin{
+    margin-bottom: 1rem;
+}

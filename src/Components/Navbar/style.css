@@ -3,7 +3,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #f8f7f1;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-top: 2rem;
 }
+
 
 .menu{
     display:flex;

@@ -1,0 +1,65 @@
+.xl{
+    margin: 0;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.l{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.m{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sm{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 300;
+}
+.xs{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300
+}
+.smbold{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+.xsbold{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+.xxs{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+.xxsbold{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.black{
+    color: black;
+    /*height: fit-content;*/
+    /*margin: 0;*/
+}
+
+.orange{
+    color: #f48f74;
+}
+
+.grey{
+    color:#a3aaaa;
+}
+
+.white{
+    color: white;
+}

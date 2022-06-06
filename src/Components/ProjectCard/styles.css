@@ -1,0 +1,44 @@
+.project-container{
+    width: 18rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2rem;
+    transition: .3s;
+    opacity: .85;
+}
+.project-container:hover{
+    opacity: 1;
+    transition: .3s;
+    transform: rotate(15deg);
+    cursor: pointer;
+}
+.project-texts{
+    padding-top:2rem;
+    padding-left: 2rem;
+}
+.project-icon{
+    align-self: flex-end;
+    padding-right: 2rem;
+}
+.project-container:last-child{
+
+}
+
+.greyBg{
+    background-color: #b1ded3;
+}
+
+.blueBg{
+    background-color: #38756a;
+}
+
+.orangeBg{
+    background-color: #fecb5e;
+}
+
+.greenBg{
+    background-color: #38756a;
+}
+

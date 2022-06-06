@@ -19,6 +19,7 @@ a{
 }
 
 .btn:hover{
+    transition: 0.9s;
     font-weight: 700;
     border-bottom: 0.2rem solid transparent;
     border-top: 0.2rem solid transparent;

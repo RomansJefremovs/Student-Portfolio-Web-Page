@@ -1,0 +1,53 @@
+.intro-banner{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../Assets/girl.png");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: bottom;
+    background-color: #f8f7f1;
+
+}
+
+.firstLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.passion{
+    text-align: center;
+}
+
+.secondLine{
+    width: fit-content;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.thirdLine{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.university{
+    margin: 0;
+    padding: 0;
+}
+.age{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.university>img{
+    /*margin-bottom: -1.5rem;*/
+}
