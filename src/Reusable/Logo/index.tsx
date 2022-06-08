@@ -1,11 +1,12 @@
 import React from "react";
 import './style.css'
-const Logo = ()=>{
+import LogoProps from "./props";
+const Logo = ({size}:LogoProps)=>{
     return(
 
-            <div className='bg-img'>
+            <div className={`bg-img ${size}`}>
                 <a href='#'>
-                    Darja <br/>Jefremova
+                    Darja <br/> Jefremova
                 </a>
             </div>
     )

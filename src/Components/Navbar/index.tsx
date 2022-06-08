@@ -12,13 +12,13 @@ const Navbar = ({properties:{titles,phone,mail}}:Props)=>{
     return(
         <>
             <div className='container'>
-                <Logo/>
+                <Logo size={"large"}/>
                 <div className='menu'>
-                    <MenuButton text={titles[0]} target='#'/>
-                    <MenuButton text={titles[1]} target='#'/>
-                    <MenuButton text={titles[2]} target='#'/>
+                    <MenuButton text={titles[0]} target='aboutme'/>
+                    <MenuButton text={titles[1]} target='projects'/>
+                    <MenuButton text={titles[2]} target='contact'/>
                 </div>
-                <ContactLine text={phone} target='#'/>
+                <ContactLine phone={phone} mail={mail} target='#'/>
             </div>
         </>
 

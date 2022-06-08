@@ -1,0 +1,31 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f1;
+    padding: 2rem 6rem 4rem 6rem;
+}
+.projects-upper{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.projects-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.more-projects{
+    align-self: flex-end;
+    text-decoration: underline;
+    text-decoration-color: #edb33c;
+}
+.more-projects:hover{
+    cursor: pointer;
+}

@@ -6,6 +6,7 @@ import './Fonts/Poppins-Medium.ttf'
 import './Fonts/Poppins-Light.ttf'
 import App from './App';
 
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

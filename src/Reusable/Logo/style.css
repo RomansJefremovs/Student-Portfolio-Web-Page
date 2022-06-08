@@ -8,20 +8,13 @@ a{
     text-decoration: none;
     color: black;
 }
-@media (min-width: 900px) {
-    .bg-img{
-        text-align: center;
-        font-family: DancingScript-SemiBold;
-        font-size: 40px;
-        background-size: cover;
-    }
+.bg-img{
+    font-family: DancingScript-SemiBold;
+    text-align: center;
 }
-
-@media (max-width: 900px) {
-    .bg-img{
-        text-align: center;
-        font-family: DancingScript-SemiBold;
-        font-size: 28px;
-        background-size: cover;
-    }
+.large{
+    font-size: 40px;
+}
+.small{
+    font-size: 24px;
 }

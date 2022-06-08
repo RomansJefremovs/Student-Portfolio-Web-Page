@@ -1,5 +1,5 @@
 interface MenuButtonProps{
     text:string,
-    target:string,
+    target?:string,
 }
 export default MenuButtonProps

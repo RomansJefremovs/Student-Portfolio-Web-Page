@@ -1,5 +1,6 @@
 interface MenuButtonProps{
-    text:string,
+    phone:string,
+    mail:string
     target:string,
 }
 export default MenuButtonProps

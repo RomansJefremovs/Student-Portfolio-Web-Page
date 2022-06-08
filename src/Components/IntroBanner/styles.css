@@ -1,46 +1,41 @@
 .intro-banner{
     padding-left: 6rem;
     padding-right: 6rem;
-    padding-top: 4rem;
+    padding-top: 5rem;
+    padding-bottom:5rem;
     display: flex;
-    flex-direction: column;
-    background-image: url("../../Assets/girl.png");
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../../Assets/Group 23.png");
     background-repeat: no-repeat;
-    background-size: initial;
+    background-size: 35rem 38rem;
     background-position: bottom;
     background-color: #f8f7f1;
-
 }
 
 .firstLine{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
 }
 .passion{
     text-align: center;
 }
 
 .secondLine{
-    width: fit-content;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-}
-
-.thirdLine{
-    text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: fit-content;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2rem;
 }
 
 .university{
+    padding-bottom: 5rem;
+    text-align: center;
+    line-height: 1.3;
     margin: 0;
-    padding: 0;
 }
 .age{
     display: flex;

@@ -6,7 +6,7 @@ import CountUp, {useCountUp} from 'react-countup';
 
 const AboutMeBanner = () => {
     return(
-        <div className='about-container'>
+        <div id='aboutme' className='about-container'>
             <div className="cards-section">
                 <Card
                     iconType='Design'
@@ -16,7 +16,7 @@ const AboutMeBanner = () => {
                 />
                 <Card
                     iconType='Management'
-                    title='Project Planning'
+                    title='Building Planning'
                     subTitle='Estimating the costs'
                     margin='margin'
                 />
@@ -32,11 +32,11 @@ const AboutMeBanner = () => {
                       color={"black"} />
                 <div className="counters">
                     <div className="counter">
-                        <Text text={<CountUp end={7} duration={2} enableScrollSpy={true} redraw={true}/>} type={"m"} color={'black'} />
+                        <Text text={<CountUp end={7} duration={3} enableScrollSpy={true} redraw={true}/>} type={"m"} color={'black'} />
                         <Text text='Semesters' type='xs' color={"black"} />
                     </div>
                     <div className="counter">
-                        <Text text={<CountUp start={0} end={18} duration={2} enableScrollSpy={true} redraw={true} />} type={"m"} color={"black"} />
+                        <Text text={<CountUp start={0} end={30} duration={3} enableScrollSpy={true} redraw={true} />} type={"m"} color={"black"} />
                         <Text text={"Courses"} type={"xs"} color={"black"} />
                     </div>
                 </div>

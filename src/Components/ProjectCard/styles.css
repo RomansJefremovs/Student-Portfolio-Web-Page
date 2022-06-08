@@ -1,6 +1,6 @@
 .project-container{
-    width: 18rem;
-    height: 20rem;
+    width: 22rem;
+    height: 26rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 }
 .project-icon{
     align-self: flex-end;
-    padding-right: 2rem;
+    /*padding-right: 2rem;*/
 }
 .project-container:last-child{
 

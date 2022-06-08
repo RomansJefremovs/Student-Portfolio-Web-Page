@@ -1,0 +1,39 @@
+.competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 3rem;
+}
+.competences-titles{
+    padding-bottom: 4rem;
+}
+.competences-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+.progressbar{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.program-icons{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.program-single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
